@@ -1,0 +1,65 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 0.5rem;
+   
+} */
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: fantasy;
+}
+
+
+
+#btn{
+    font-size: 1rem;
+    text-align: center;
+    font-family: fantasy; 
+    position: absolute;
+    top:40rem;
+    left: 42%;
+    
+}
+
+
+
+
+.current-player{
+    text-align: center;
+    font-family: fantasy; 
+}
+.grid{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 410px;
+    width: 475px;
+    background: rgb(255, 132, 66);
+    border: 10px solid rgb(69, 144, 255);
+    padding: .5rem;
+    display:flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.grid div{
+    height: 65px;
+    width: 65px;
+    border:1px solid rgb(77, 77, 77)
+    
+}
+
+.player-one{
+    background-color: red;
+    border-radius: 10px;
+}
+.player-two{
+    background-color: yellow;
+    border-radius: 10px;
+}
+
